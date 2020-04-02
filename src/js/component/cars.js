@@ -6,17 +6,13 @@ export function Cars(props) {
 		<div>
 			<div className="card">
 				<div className="card-body">
-					{props.object.post_author}
+					{props.object.make}
 					<br /> <br />
-					{props.object.post_date}
+					{props.object.model}
 					<br /> <br />
-					{props.object.post_title}
+					{props.object.year}
 					<br /> <br />
-					{props.object.post_name}
-					<br /> <br />
-					{props.object.post_content}
-					<br /> <br />
-					{props.object.post_type}
+					{props.object.color}
 					<br /> <br />
 				</div>
 			</div>
